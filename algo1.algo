@@ -1,0 +1,12 @@
+ALGORITHM number_of_words
+VAR
+  str: STRING:"Dark side of the moon";
+  count: INTEGER=0; 
+BEGIN
+FOR (i in str) DO
+  IF (i == " ") THEN
+  count += 1
+  END_IF
+END_FOR
+  Write(count)
+END
